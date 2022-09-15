@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="14" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-15T17:17:29 EET" name="product purchase suite" finished-at="2022-09-15T17:17:31 EET" duration-ms="2047">
+    <groups>
+    </groups>
+    <test started-at="2022-09-15T17:17:29 EET" name="Product Purchase Test" finished-at="2022-09-15T17:17:31 EET" duration-ms="2047">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:tests.LoginTest@3527942a]" started-at="2022-09-15T17:17:25 EET" name="openURL" finished-at="2022-09-15T17:17:29 EET" duration-ms="3904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="userCanLoginSuccessfully()[pri:1, instance:tests.LoginTest@3527942a]" started-at="2022-09-15T17:17:29 EET" name="userCanLoginSuccessfully" finished-at="2022-09-15T17:17:29 EET" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanLoginSuccessfully -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginTest@3527942a]" started-at="2022-09-15T17:17:31 EET" name="closeBrowser" finished-at="2022-09-15T17:17:31 EET" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CartTest">
+        <test-method signature="userCanCheckOut()[pri:0, instance:tests.CartTest@576d5deb]" started-at="2022-09-15T17:17:30 EET" name="userCanCheckOut" finished-at="2022-09-15T17:17:30 EET" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanCheckOut -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.ConfirmPurchaseTest">
+        <test-method signature="userCanConfirmPurchase()[pri:0, instance:tests.ConfirmPurchaseTest@2e3967ea]" started-at="2022-09-15T17:17:30 EET" name="userCanConfirmPurchase" finished-at="2022-09-15T17:17:31 EET" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanConfirmPurchase -->
+      </class> <!-- tests.ConfirmPurchaseTest -->
+      <class name="tests.CheckoutTest">
+        <test-method signature="userCanEnterCheckoutInfo()[pri:0, instance:tests.CheckoutTest@5d534f5d]" started-at="2022-09-15T17:17:30 EET" name="userCanEnterCheckoutInfo" finished-at="2022-09-15T17:17:30 EET" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanEnterCheckoutInfo -->
+      </class> <!-- tests.CheckoutTest -->
+      <class name="tests.ProductsTest">
+        <test-method signature="userCanAddProductToCart()[pri:0, instance:tests.ProductsTest@5e600dd5]" started-at="2022-09-15T17:17:29 EET" name="userCanAddProductToCart" finished-at="2022-09-15T17:17:30 EET" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAddProductToCart -->
+        <test-method signature="userCanNavigateToCart()[pri:0, instance:tests.ProductsTest@5e600dd5]" started-at="2022-09-15T17:17:30 EET" name="userCanNavigateToCart" finished-at="2022-09-15T17:17:30 EET" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanNavigateToCart -->
+      </class> <!-- tests.ProductsTest -->
+    </test> <!-- Product Purchase Test -->
+  </suite> <!-- product purchase suite -->
+</testng-results>

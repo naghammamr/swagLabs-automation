@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="product purchase suite">
+	<test name="Product Purchase Test" preserve-order="true">
+		<classes>
+			<class name="tests.LoginTest" />
+			<methods>
+				<include name="userCanLoginSuccessfully" />
+			</methods>
+			<class name="tests.ProductsTest" />
+			<methods>
+				<include name="userCanAddProductToCart" />
+				<include name="userCanNavigateToCart" />
+			</methods>
+			<class name="tests.CartTest" />
+			<methods>
+				<include name="userCanCheckOut" />
+			</methods>
+			<class name="tests.CheckoutTest" />
+			<methods>
+				<include name="userCanEnterCheckoutInfo" />
+			</methods>
+			<class name="tests.ConfirmPurchaseTest" />
+			<methods>
+				<include name="userCanConfirmPurchase" />
+			</methods>
+		</classes>
+	</test>
+</suite>
